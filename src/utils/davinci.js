@@ -23,7 +23,7 @@ export const davinci = async (prompt, key) => {
   ]);
   const model = new ChatOpenAI({
     openAIApiKey: key,
-    model: 'gpt-3.5-turbo',
+    model: 'gpt-4-32k-0314',
     temperature: 0.3,
   });
 
